@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(59, 129, 190, 0.8);
+    box-sizing: border-box;
+}
+
+/* body {
+    background: rgb(36, 14, 0);
+    background: linear-gradient(90deg, rgba(36, 14, 0, 1) 2%, rgba(84, 9, 121, 1) 50%, rgba(0, 194, 255, 1) 98%);
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-wrap: wrap;
+} */
+
+span {
+    color: blueviolet;
+}
+
+/* Glassmorphism card effect */
+.Glass {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.container {
+    background: #000;
+    margin: 65px 0px;
+    padding: 30px 20px;
+    width: 800px;
+    height: 700px;
+    border-radius: 15px;
+}
+
+.cont {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.filter {
+    /* border: 3px solid violet; */
+    margin: 6px;
+    padding: 12px;
+    flex-basis: 38%;
+    border-radius: 15px;
+    background: #222222;
+}
+
+.filter .list {
+    /* border: 3px solid aqua; */
+}
+
+.filter .project {
+    /* border: 3px solid green; */
+}
+
+.project .cube {
+    /* border: 3px solid violet; */
+    /* height: fit-content; */
+    height: 150px;
+    padding: 10px;
+}
+
+.cube img {
+    width: 25px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    flex-wrap: wrap;
+}
+
+.list ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.list ul li {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.list ul li img {
+    width: 25px;
+}
+
+.list button {
+    padding: 9px 10px;
+    margin: 7px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.list button:hover {
+    padding: 9px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+footer {
+    padding: 10px;
+}
